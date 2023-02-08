@@ -29,4 +29,4 @@ desenvolvido por [Nathally Souza](https://github.com/nathyts)
 
 [ X ] Crie uma função de Boas vindas
 [ X ] Ao clicar no botão, deve aparecer um alert com uma mensagem de boas vindas
-[ 0 ] - Crie o teste unitário da função
+[ 0 ] - Crie o teste unitário da função. (Não consegui criar o teste unitário)
