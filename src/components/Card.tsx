@@ -1,5 +1,6 @@
 import { Box, FormControl, Heading, Input, VStack } from "@chakra-ui/react"
-import { Send } from "./Send"
+import { login } from "../services/login"
+import { DButton } from "./DButton"
 
 export const Card = () => {
   return (
@@ -11,7 +12,7 @@ export const Card = () => {
             <Input type='name' placeholder="Nome" id="name" name='name' />
             <Input type='email' placeholder="email" id="email" name='email' />
             <Input placeholder="password" type="password" id="password" name="password" />
-            <Send />
+            <DButton onClick={login} />
           </VStack>
         </FormControl>
       </VStack>
